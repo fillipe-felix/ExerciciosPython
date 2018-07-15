@@ -17,4 +17,4 @@ INSS = salBruto * 0.08
 sindicato = salBruto * 0.05
 salLiquido = salBruto - IR - INSS - sindicato
 
-print(f"\n+Salario Bruto R${salBruto}\n-IR = {IR}\n-INSS = {INSS}\n-Sindicato = {sindicato}\nSalario Liquido = {salLiquido}\n")
+print(f"\n+Salario Bruto R${salBruto:.2f}\n-IR = {IR:.2f}\n-INSS = {INSS:.2f}\n-Sindicato = {sindicato:.2f}\nSalario Liquido = {salLiquido:.2f}\n")
