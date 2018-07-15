@@ -1,6 +1,6 @@
 """
 Faça um Programa que calcule a área de um quadrado, 
-em seguida mostre o dobro desta área para o usuário.
+em seguida mostre o dobro desta área para o usuário. 
 """
 
 lado = float(input("digite quantos cm tem o lado do quadrado: "))
